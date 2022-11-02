@@ -143,7 +143,7 @@ padding: 50px 0 50px 0;
 .icon-servicios {
 width: 70px;
 }
-.conteiner-servicios-item {
+.container-servicios-item {
     margin: 30px;
 }
 /* FIN Servicios */
@@ -154,6 +154,7 @@ width: 70px;
     margin: 25px 50px;
     padding-bottom: 35px;
     border-radius: 45px;
+    display: flex;
 }
 
 #portafolio p, h3 {
@@ -174,12 +175,15 @@ width: 70px;
     height: 200px;
     padding-bottom: 20px;
 }
+.job-container {
+    display: flex;
+}
 
-.jobs-conteiner {
+.jobs-container-item {
     text-align: center;
 }
-.jobs-conteiner a {
-    margin: 10px 100px 30px;
+.jobs-container-item a {
+    margin: 10px 50px 30px;
 }
 .img-trabajo {
     border-radius: 20px;
@@ -211,7 +215,7 @@ color: black;
 margin-top: 20px;
 }
 
-.img-contacto{
+#redes img{
 width: 70px;
 margin: 50px 80px;
 }
@@ -360,12 +364,92 @@ footer img{
 
 
 /* Media Mobile */
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:700px) {
     /* Presentacion - Backgrond con un imagen */
     #home {
         padding-top: 60px;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+    }
+    .home-item-1 {
+        text-align: center;
+    }
+     /* Fin Presentacion - Backgrond con un imagen */
+    
+     /* Sobre mi & Tecnologias */
+     #tecnologias-container {
+        padding-top: 20px;
+        margin: 0;
+        border-radius: 0px;
+    }
+     .tecnologias-item-1 p, h3{
+        padding: 0px 10px;
+    }
+    .teconolgoia-item-cv{
+        padding: 20px 0;
+        margin: 0;
+    }
+    .container-lenguajes-subitem {
+        padding-top: 50px;
+    }
+     /* Fin Sobre mi & Tecnologias */
+
+     #portafolio {
+        background-color: #3f3f3f;
+        margin: 25px 0;
+        padding-bottom: 35px;
+    }
+    
+    /* Portafolio */
+    #portafolio{
+        margin: 0;
+        border-radius: 0;
+    }
+    
+    #portafolio a img{
+        width: 330px;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .jobs-container-item{
+        padding-top: 10px;
+    }
+     .jobs-container-item a {
+        margin: 0;
+    }
+
+     .zoom {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+      }
+    
+    .zoom:hover {
+        -ms-transform: scale(1); 
+        -webkit-transform: scale(1); 
+        transform: scale(1); 
+      }
+     /* Portafolio */
+
+     /* redes */
+     #redes img{
+        width: 70px;
+        margin: 50px 20px;
+        }
+    /* Fin redes */
+
+}
+
+/* Fin Media Mobile */
+
+/* Media Tablet */
+@media only screen and (min-width:701px) and (max-width: 980px) {
+     /* Presentacion - Backgrond con un imagen */
+     #home {
+        padding-top: 60px;
+        display: flex;
+        flex-direction: row;
         justify-content: center;
     }
     .home-item-1 {
@@ -392,16 +476,19 @@ footer img{
         padding-bottom: 35px;
     }
     
-    
+    /* Portafolio */
     
     #portafolio a img{
-        width: 100px;
+        width: 330px;
         height: auto;
         padding-bottom: 20px;
     }
-
-     .jobs-conteiner a {
-        margin: 0px;
+   
+    .jobs-container-item{
+        padding-top: 10px;
+    }
+     .jobs-container-item a {
+        margin: 0;
     }
 
      .zoom {
@@ -415,17 +502,82 @@ footer img{
         -webkit-transform: scale(1); 
         transform: scale(1); 
       }
-
-     
-
-
-}
-
-/* Fin Media Mobile */
-
-/* Media Tablet */
-@media only screen and (min-width:501px) and (max-width: 980px) {
+     /* Portafolio */
+     /* redes */
+     #redes img{
+        width: 70px;
+        margin: 50px 30px;
+        }
     
 }
 
 /* Fin Media Table */
+
+/*  medium-large  */
+@media only screen and (min-width:981px) and (max-width: 1390px) {
+    /* Presentacion - Backgrond con un imagen */
+    #home {
+       padding-top: 60px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+   }
+   .home-item-1 {
+       text-align: center;
+   }
+    /* Fin Presentacion - Backgrond con un imagen */
+   
+    /* Sobre mi & Tecnologias */
+    .tecnologias-item-1 p, h3{
+       padding: 0px 10px;
+   }
+   .teconolgoia-item-cv{
+       padding: 20px 0;
+       margin: 0;
+   }
+   .container-lenguajes-subitem {
+       padding-top: 50px;
+   }
+    /* Fin Sobre mi & Tecnologias */
+
+    #portafolio {
+       background-color: #3f3f3f;
+       margin: 25px 0;
+       padding-bottom: 35px;
+   }
+   
+   /* Portafolio */
+   
+   #portafolio a img{
+       width: 220px;
+       height: auto;
+       padding-bottom: 20px;
+   }
+  
+   .jobs-container-item{
+       padding-top: 10px;
+   }
+    .jobs-container-item a {
+       margin: 0;
+   }
+
+    .zoom {
+       width: auto;
+       height: auto;
+       margin: 0 auto;
+     }
+   
+   .zoom:hover {
+       -ms-transform: scale(1); 
+       -webkit-transform: scale(1); 
+       transform: scale(1); 
+     }
+    /* Portafolio */
+    /* redes */
+    #redes img{
+       width: 70px;
+       margin: 50px 30px;
+       }
+   
+}
+/* FIN medium-large  */
