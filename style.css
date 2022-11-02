@@ -22,7 +22,7 @@ header img {
 }
 /* Navegador */
 .navegador{
-    background-image: url(img/background-main.png);
+    background-image: url(img/imagenhtml.webp);
     text-align: center;
 }
 
@@ -242,26 +242,32 @@ footer img{
 
 .footer-item-1 {
     text-align: right;
+    padding: 0;
+    margin: 0;
 }
 .footer-item-2{
     text-align: left;
+    padding: 0;
+    margin: 0;
 }
 
 /* FIN Footer */
 
 /* Pagina Contacto */
   #formulario {
+    background-color: #c40048;
     display: flex;
     justify-content: center;
-    padding-top: 130px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   .form {
     background-color: #15172b;
     border-radius: 20px;
     box-sizing: border-box;
-    height: 1000px;
+    height: 1100px;
     padding: 20px;
-    width: 1000px;
+    width: 1100px;
   }
   
   .title {
