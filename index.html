@@ -5,9 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Pre-Entrega</title>
+        <!-- CSS only -->
         <link rel="stylesheet" href="style.css">
         <!-- Boostrap -->
-        <!-- CSS only -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     </head>
     <body>
@@ -31,10 +31,10 @@
                         <a  href="#portafolio">Portafolio</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="#redes">Redes</a>
+                        <a  href="#redes">redes</a>
                     </li>
                     <li class="nav-item">
-                        <a  href="Contacto.html">Contacto</a>
+                        <a  href="contacto.html">Contacto</a>
                     </li>
                 </ul>
             </div>
@@ -53,69 +53,77 @@
                 </div>
             </section>
             <!-- Fin Presentacion-->
-            <!-- Sobre mi & Tecnologias -->
-            <section id="tecnologias-conteiner">
-                <div class="tecnologias-item1">
+            <!-- Sobre mi & Tecnologias Se utilizo boostrap para poner un carousel-->
+            <section id="tecnologias-container" class="tecnologias-edit">
+                <div class="tecnologias-item-1">
                     <h3>Sobre mi:</h3>
                     <p><span class="tecno-color">Me llamo Augusto Pezzutti.</span></p>
                     <p><span class="tecno-color">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore temporibus ea dignissimos? Sint modi, nisi quidem voluptas repudiandae a nobis, voluptatem nostrum quod harum hic at illum odio officiis dignissimos.</span></p>
-                </div>
-                <div class="tecnologias-item2"> 
                     <nav class="teconolgoia-item-cv">
                         <ul>
                             <li><a href="#">Descargar CV</a></li>
                         </ul>
                     </nav>
                 </div>
-                <!-- Se va a usar GRID PARA HACER ESTA SECCION -->
-                <div class="tecnologias-item2">
-                    <h3>Tecnologias Aprendidas</h3>
-                    <img src="img/html-logo.png" alt="HTML LOGO" class="logo-lenguajes">
-                    <img src="img/css-logo.png" alt="CSS LOGO" class="logo-lenguajes">
-                    <img src="img/Javascript-logo.png" alt="JAVASCRIPT LOGO" class="logo-lenguajes">
-                </div>
+                <!-- Lenguajes de programacion -->
+                <div class="container-lenguajes">
+                    <h3>Lenguajes de Programacion</h3>
+                    <div class="row container-lenguajes-item-1">
+                      <div class="col-lg-4 container-img">
+                        <img src="/img/html-logo.png" alt="Logo Html">
+                      </div>
+                      <div class="col-lg-4 container-img">
+                        <img src="/img/css-logo.png" alt="logo Css">
+                      </div>
+                      <div class="col-lg-4 container-img">
+                        <img src="img/Javascript-logo.png" alt="Logo JavaScript">
+                      </div>
+                    </div>
+                  </div>
             </section>
             <!-- Fin Sobre mi & Tecnologias -->
             <!-- Servicios -->
             <section id="servicios">
-                <div>
+                <div class="servicios-titulo text-align-center">
                     <h3>Servicios:</h3>
-                    <p>Servicios- Servicios que ofrezco</p>
+                    <h5>Servicios- Servicios que ofrezco</h5>
                 </div>
                 <!-- Se va a utlizar grid para armar la tabla -->
                 <!-- Todos los servicios que se ofrecen -->
-                <div class="servicios-item-2">
-                    <div class="lg-4">
+                <div class="row conteiner-servicios-item">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-responsive.png" class="icon-servicios">
                         <h3>Responsivo</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam odio voluptate repellendus odit aut molestias dolorum repudiandae! Rem ducimus, quaerat odit aliquid nesciunt at hic repellat cumque delectus, aut maiores?</p>
                     </div>
-                    <div class="lg-4">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-desing.png" class="icon-servicios">
                         <h3>Diseño</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos nihil minima doloribus quod. Vero illo quae fugiat autem ducimus tempora, quis enim eius nulla ipsum culpa aliquam beatae molestiae? Beatae.</p>
                     </div>
-                    <div class="lg-4">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-code.png" class="icon-servicios">
                         <h3>Desarrolador</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium aliquid dolor dolores ad alias, culpa amet quas mollitia recusandae pariatur aperiam, quis totam praesentium dignissimos beatae tempora. Blanditiis, illum fuga!</p>
                     </div>
-                    <div class="lg-4">
+                </div>  
+                <div class="row conteiner-servicios-item">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-social.png" class="icon-servicios">
                         <h3>Comunicíon</h3>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos rem unde dolore sit aperiam officiis temporibus porro voluptatibus pariatur voluptates architecto corrupti distincti</p>
                     </div>
-                    <div class="lg-4">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-performance.png" class="icon-servicios">
                         <h3>Perfomance</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus repudiandae voluptatem aspernatur? Porro ipsam id sapiente totam, quas deleniti hic error repudiandae excepturi reiciendis. Odio accusantium hic optio ratione nisi?</p>
                     </div>
-                    <div class="lg-4">
+                    <div class="col-lg-4 text-align-center">
                         <img src="img/icon-seo.png" class="icon-servicios">
                         <h3>Seo</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil, amet? Quae ex quo beatae, nemo fugit eum? Necessitatibus, maxime incidunt nihil dolor nisi quia autem</p>
                     </div>
-                </div>
+                </div>  
                 <!-- Todos los servicios que se ofrecen -->
                  <!-- Se va a utlizar grid para armar la tabla -->
             </section>
@@ -124,21 +132,20 @@
             <section id="portafolio">
                 <div>
                     <h3>Portafolio:</h3>
-                    <p>Proyectos personales y grupales</p>
+                    <h5>Proyectos personales y grupales</h5>
                 </div>
                 <!-- Se va a usar grid para armar esta seccion -->
                 <div class="jobs-conteiner">
-                    
-                    <a href="#"><img src="img/Trabajos-a.png" alt="trabajo 1"></a>
-                    <a href="#"><img src="img/Trabajos-a.png" alt="trabajo 2"></a>
-                    <a href="#"><img src="img/Trabajos-a.png" alt="trabajo 3"></a>
+                    <a href="https://street.rentlynetwork.com/afiliate-con-street"><img src="img/trabajo-1.png" alt="trabajo 1" class="img-trabajo" target="_blank"></a>
+                    <a href="https://hertz.rentlynetwork.com/"><img src="img/trabajo-2.png" alt="trabajo 2" class="img-trabajo" target="_blank"></a>
+                    <a href="https://hertz-cr.rentlynetwork.com/sobre-nosotros"><img src="img/trabajo-3.png" alt="trabajo 3" class="img-trabajo" target="_blank"></a>
                 </div>
                 <!-- Se va a usar grid para armar esta seccion -->
             </section>
             <!-- Fin Portafolio -->
             <!-- Contacto -->
             <section id="redes">
-                <h3>contacto</h3>
+                <h3>Redes Sociales</h3>
                 <a href="#"><img src="img/icon-whatsapp.png" class="img-contacto"></a>
                 <a href="#"><img src="img/icon-linkedin.png" class="img-contacto"></a>
                 <a href="#"><img src="img/icon-smartphone.png" class="img-contacto"></a>
@@ -149,10 +156,14 @@
         </main>
         <!-- footer -->
         <footer>
-            <section class="footer-conteiner">
-                <p>Coyright</p>
-                <p>All right reserved</p>
-                <img src="img/logo" alt="">
+            <section class="row footer-conteiner">|
+                <div class="col footer-item-1">
+                    <p>Coyright</p>
+                    <p>All right reserved</p>
+                </div>
+                <div class="col footer-item-2">
+                    <img src="img/Simbol-copy.png" alt="Logo de copyright">
+                </div>
             </section>
         </footer>
         <!-- FIN footer -->

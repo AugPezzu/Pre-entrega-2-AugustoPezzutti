@@ -5,7 +5,9 @@
     margin: 0;
     padding: 0;
 }
-
+.text-align-center {
+    text-align: center;
+}
 body {
     font-family: poppins;
 }
@@ -57,7 +59,7 @@ header img {
 }
 .home-item-1{
     align-items: center;
-    margin-top: 30px
+    margin: 50px 20px
 }
 .home-item-2 p {
     color: black;
@@ -81,9 +83,22 @@ header img {
 /* FIN Home */
 
  /* Tecnologias */
-#tecnologias-conteiner {
+
+#tecnologias-container {
     background-color: #3f3f3f;
+    margin: 0 50px;
+    border-radius: 45px;
 }
+
+.tecnologias-item-1 p, h3{
+    color: #fff;
+    text-align: center;
+    padding: 0px 300px;
+}
+.tecnologias-item-2{
+    padding: 20px 100px;
+}
+
 .teconolgoia-item-cv {
     padding-top: 20px;
 }
@@ -91,9 +106,7 @@ header img {
     text-align: center;
     margin-top: 25px;   
  }
- .tecno-color {
-    color: #fff;
- }
+
  .teconolgoia-item-cv ul li a {
     text-decoration: none;
     padding: 15px;
@@ -101,24 +114,33 @@ header img {
     color: #FFF;
     border-radius: 45px;
  }
- .tecnologia-item2 {
-  text-align: center;
- }
- .logo-margin {
-    margin-left: 100px;
- }
- .logo-lenguajes {
-    width: 150px;
+/* Lenguajes */
+.container-lenguajes{
+    padding: 10px 0 50px 0;
+}
+.container-img{
     text-align: center;
-    margin: 0px 0px 0px 200px;
-    padding-left: 160px;
- }
- /* FIN Tecnologias */
+}
+
+/* fin Lenguajes */
+/* FIN Tecnologias */
 
 /* Servicios */
-#servicios h3, p {
+#servicios {
+    margin: 0 50px;
+}
+.servicios-titulo{
+padding: 50px 0 50px 0;
+}
+#servicios h3 {
     color: black;
     text-align: center;
+}
+#servicios h5 {
+    text-align: center;
+}
+#servicios p {
+    text-align: justify;
 }
 #servicios img {
     text-align: center;
@@ -126,32 +148,36 @@ header img {
 .icon-servicios {
 width: 70px;
 }
-.servicios-item-2 {
-    text-align: center;
-    margin-bottom: 30px;
+.conteiner-servicios-item {
+    margin: 30px;
 }
-.lg-4 {
-    background-color: #FFF;
-    float: left;
-    width: 33.3%;
-}
+
 /* FIN Servicios */
 
 /* Portafolio */
 #portafolio {
     background-color: #3f3f3f;
-    margin: 25px 0px;
+    margin: 25px 50px;
+    padding-bottom: 35px;
+    border-radius: 45px;
 }
 
-#portafolio p, h3{
+#portafolio p, h3 {
     color: #FFF;
     text-align: center;
     margin: 20px 0px 15px;
     padding: 20px 0px; 
 }
 
+#portafolio h5{
+    text-align: center;
+    color: #FFF;
+    padding-bottom: 25px;
+}
+
 #portafolio a img{
-    width: 400px;
+    width: auto;
+    height: 200px;
     padding-bottom: 20px;
 }
 
@@ -161,23 +187,26 @@ width: 70px;
 .jobs-conteiner a {
     margin: 10px 100px 30px;
 }
+.img-trabajo {
+    border-radius: 20px;
+}
 /* FIN Portafolio */
 
-        /* Contacto */
-        #contacto {
-            text-align: center;
-        }
+/* Redes */
+#redes {
+    text-align: center;
+}
 
-        #contacto h3 {
-        color: black;
-        margin-top: 20px;
-        }
+#redes h3 {
+color: black;
+margin-top: 20px;
+}
 
-        .img-contacto{
-        width: 70px;
-        margin: 50px 80px;
-        }
-        /* Fin contacto */
+.img-contacto{
+width: 70px;
+margin: 50px 80px;
+}
+/* Fin Redes */
 
 /* FIN Main */
 
@@ -192,4 +221,123 @@ footer {
 footer p {
     color: #FFF;
 }
+
+footer img{
+    width: 30px;
+}
+
+.footer-item-1 {
+    text-align: right;
+}
+.footer-item-2{
+    text-align: left;
+}
+
 /* FIN Footer */
+
+/* Pagina Contacto */
+  #formulario {
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+  }
+  .form {
+    background-color: #15172b;
+    border-radius: 20px;
+    box-sizing: border-box;
+    height: 1000px;
+    padding: 20px;
+    width: 1000px;
+  }
+  
+  .title {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 30px;
+  }
+  
+  .subtitle {
+    color: #eee;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+  }
+  
+  .input-container {
+    height: 50px;
+    position: relative;
+    width: 100%;
+  }
+  
+  .ic1 {
+    margin-top: 40px;
+  }
+  
+  .ic2 {
+    margin-top: 30px;
+  }
+  
+  .input {
+    background-color: #303245;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 18px;
+    height: 100%;
+    outline: 0;
+    padding: 4px 20px 0;
+    width: 100%;
+  }
+  
+  .cut {
+    color: #fff;
+    background-color: #15172b;
+    border-radius: 10px;
+    height: 20px;
+    left: 20px;
+    position: absolute;
+    top: -20px;
+    width: 76px;
+  }
+  
+  .cut-short {
+    width: 50px;
+  }
+  
+
+  
+  .placeholder {
+    font-family: sans-serif;
+    left: 20px;
+    line-height: 14px;
+    transform-origin: 0 50%;
+    transition: transform 200ms, color 200ms;
+    top: 20px;
+  }
+
+  
+  .submit {
+    background-color: #08d;
+    border-radius: 12px;
+    border: 0;
+    box-sizing: border-box;
+    color: #eee;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    margin-top: 38px;
+    outline: 0;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .submit:active {
+    background-color: #06b;
+  }
+  
+
+/* Fin Pagina Contacto */
