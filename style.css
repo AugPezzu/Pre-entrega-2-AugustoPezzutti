@@ -52,22 +52,29 @@ header img {
 /* Home */
 #home {
     padding-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+.home-item-1{
+    align-items: center;
+    margin-top: 30px
 }
 .home-item-2 p {
     color: black;
+    text-transform: capitalize;
     font-size: 25px;
     margin: 0px;
+    padding: 23px;
 }
 .home-item-2 h3 {
     color: #c40048;
-    font-size: 30px;
-    margin: 5px;
-}
-.home-item-1 {
-    text-align: center;
+    font-size: 35px;
+    margin: 0px;
+    padding: 0px;
+
 }
 .img-personal {
-    width: 120px;
+    width: 135px;
     height: auto;
     border-radius: 90px;
 }
