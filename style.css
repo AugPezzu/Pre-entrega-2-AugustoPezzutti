@@ -1,0 +1,184 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap%27');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: poppins;
+}
+/* Header */
+header {
+    position: fixed;
+    background-color: #3f3f3f;
+    background-image: url("img/background-main.png");
+    width: 100%;
+}
+header img {
+    width: 50px;
+    margin: 10px 0px 0px 10px;
+}
+/* Navegador */
+header nav {
+    float: right;
+}
+header nav ul {
+    flex-direction: column;
+    text-decoration: none;
+    margin-left: 200px;
+    padding-top: 18px;
+}
+header nav ul li{
+    font-size: 18px;
+    display: inline;
+    margin: 25px 0px 0px 0px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+    background-color: #c40048;
+    padding: 5px;
+    border-radius: 45px;   
+}
+/* FIN Navegador */
+/* FIN Header */
+
+/* Main */
+/* Home */
+#home {
+    padding-top: 110px;
+}
+.home-item-2 p {
+    color: black;
+    font-size: 25px;
+    margin: 0px;
+}
+.home-item-2 h3 {
+    color: #c40048;
+    font-size: 30px;
+    margin: 5px;
+}
+.home-item-1 {
+    text-align: center;
+}
+.img-personal {
+    width: 120px;
+    height: auto;
+    border-radius: 90px;
+}
+/* FIN Home */
+
+ /* Tecnologias */
+#tecnologias-conteiner {
+    background-color: #3f3f3f;
+}
+.teconolgoia-item-cv {
+    padding-top: 20px;
+}
+ .teconolgoia-item-cv ul {
+    text-align: center;
+    margin-top: 25px;   
+ }
+ .tecno-color {
+    color: #fff;
+ }
+ .teconolgoia-item-cv ul li a {
+    text-decoration: none;
+    padding: 15px;
+    background-color: blue;
+    color: #FFF;
+    border-radius: 45px;
+ }
+ .tecnologia-item2 {
+  text-align: center;
+ }
+ .logo-margin {
+    margin-left: 100px;
+ }
+ .logo-lenguajes {
+    width: 150px;
+    text-align: center;
+    margin: 0px 0px 0px 200px;
+    padding-left: 160px;
+ }
+ /* FIN Tecnologias */
+
+/* Servicios */
+#servicios h3, p {
+    color: black;
+    text-align: center;
+}
+#servicios img {
+    text-align: center;
+}
+.icon-servicios {
+width: 70px;
+}
+.servicios-item-2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.lg-4 {
+    background-color: #FFF;
+    float: left;
+    width: 33.3%;
+}
+/* FIN Servicios */
+
+/* Portafolio */
+#portafolio {
+    background-color: #3f3f3f;
+    margin: 25px 0px;
+}
+
+#portafolio p, h3{
+    color: #FFF;
+    text-align: center;
+    margin: 20px 0px 15px;
+    padding: 20px 0px; 
+}
+
+#portafolio a img{
+    width: 400px;
+    padding-bottom: 20px;
+}
+
+.jobs-conteiner {
+    text-align: center;
+}
+.jobs-conteiner a {
+    margin: 10px 100px 30px;
+}
+/* FIN Portafolio */
+
+        /* Contacto */
+        #contacto {
+            text-align: center;
+        }
+
+        #contacto h3 {
+        color: black;
+        margin-top: 20px;
+        }
+
+        .img-contacto{
+        width: 70px;
+        margin: 50px 80px;
+        }
+        /* Fin contacto */
+
+/* FIN Main */
+
+/* Footer */
+footer {
+    margin: 10px 0px 0px;
+    padding-top: 10px;
+    text-align: center;
+    background-color: #3f3f3f;
+}
+
+footer p {
+    color: #FFF;
+}
+/* FIN Footer */
